@@ -30,10 +30,10 @@ header {
   background-color: rgba(106, 0, 106, 0.807);
 }
 
-label {
+/* label {
   padding-left: 0.1rem;
-  /* margin: 1rem 0; */
-}
+  margin: 1rem 0;
+} */
 input {
   display: block;
   margin: 0.1rem 0 0.8rem 0;
@@ -44,4 +44,18 @@ input {
   color: black;
   background-color: white;
   box-sizing: border-box;
+}
+
+#dropdown-box {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem auto;
+}
+
+#dropdown {
+  margin-left: 1rem;
+}
+
+.first--radios {
+  display: flex;
 }
