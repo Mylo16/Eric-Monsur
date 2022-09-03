@@ -18,17 +18,19 @@
     <main>
       <form action="" id="survey-form">
         <label for="name" id="name-label">Name</label>
-        <input type="text" id="name" placeholder="Please enter your name here">
-        <label for="email" id="email-label">Email</label>
-        <input type="email" id="email" placeholder="Enter your email">
-        <label for="" id="name-label">Name</label>
         <input
           type="text"
           id="name"
           placeholder="Please enter your name here"
+          required
         />
-        <label for="" id="email-label">Email</label>
-        <input type="email" id="email" placeholder="Enter your email" />
+        <label for="email" id="email-label">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
         <label for="" id="number-label">Age</label>
         <input
           type="number"
@@ -61,8 +63,10 @@
         <div class="checkboxes">
           <input type="checkbox" value="Videos" /> Videos
         </div>
-        <textarea name="" id="" cols="30" rows="10">Any comments or suggestions?</textarea>
-        <input type="submit" id="submit" value="Submit">
+        <textarea name="" id="" cols="30" rows="10">
+Any comments or suggestions?</textarea
+        >
+        <input type="submit" id="submit" value="Submit" />
       </form>
     </main>
     <footer></footer>

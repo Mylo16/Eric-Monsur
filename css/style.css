@@ -58,4 +58,5 @@ input {
 
 .first--radios {
   display: flex;
+  margin: 0;
 }
