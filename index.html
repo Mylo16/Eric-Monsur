@@ -17,7 +17,7 @@
     </header>
     <main>
       <form action="" id="survey-form">
-        <label for="" id="name-label">Name</label>
+        <label for="name" id="name-label">Name</label>
         <input
           type="text"
           id="name"
@@ -51,10 +51,12 @@
           <input type="radio" name="select" />
           <p>Maybe</p>
         </div>
-        <div id="checkboxes">
-          <p>What would you like to see improved? (Check all that apply)</p>
-          <input type="checkbox" value="Wiki" />
-          <input type="checkbox" value="Videos" />
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <div class="checkboxes">
+          <input type="checkbox" value="Wiki" /> Wiki
+        </div>
+        <div class="checkboxes">
+          <input type="checkbox" value="Videos" /> Videos
         </div>
       </form>
     </main>
