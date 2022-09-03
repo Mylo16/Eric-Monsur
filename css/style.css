@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  width: 100vw;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#title {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#survey-form {
+  width: 80vw;
+  padding: 0.5rem;
+  margin-right: 1rem auto;
+  border-radius: 0.5rem;
+}
+
+input {
+  display: block;
+  border-radius: 0.3rem;
+  width: 100%;
+  box-sizing: border-box;
+}
