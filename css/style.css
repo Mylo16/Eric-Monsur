@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  background-color: blueviolet;
-  color: white;
 }
 
 body {
+  margin-top: 4rem;
   width: 100vw;
+  color: white;
+  background-color: blueviolet;
+  font-family: sans-serif;
 }
 
 header {
@@ -20,19 +22,22 @@ header {
   text-transform: uppercase;
 }
 
-/* label {
-} */
-
 #survey-form {
   width: 80vw;
-  padding: 0.5rem;
-  margin-right: 1rem auto;
+  padding: 2rem;
+  margin: 1rem auto;
   border-radius: 0.5rem;
+  background-color: rgba(106, 0, 106, 0.807);
 }
 
+label {
+  padding-left: 0.1rem;
+  /* margin: 1rem 0; */
+}
 input {
   display: block;
-  padding: 0.3rem 1rem;
+  margin: 0.1rem 0 0.8rem 0;
+  padding: 0.5rem 0.3rem;
   border-radius: 0.3rem;
   border: solid 1px white;
   width: 100%;
