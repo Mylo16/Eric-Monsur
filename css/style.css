@@ -34,7 +34,7 @@ header {
   padding-left: 0.1rem;
   margin: 1rem 0;
 } */
-input {
+section > input {
   display: block;
   margin: 0.1rem 0 0.8rem 0;
   padding: 0.5rem 0.3rem;
@@ -56,7 +56,37 @@ input {
   margin-left: 1rem;
 }
 
-.first--radios {
+.first--radios-box {
   display: flex;
-  margin: 0;
+}
+
+.radios,
+.checkboxes {
+  margin-right: 1rem;
+}
+
+.p-header {
+  margin: 0.5rem 0;
+}
+
+textarea {
+  width: 100%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+#submit-box {
+  text-align: center;
+}
+
+#submit {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: solid 2px purple;
+}
+
+#submit:hover {
+  background-color: grey;
+  color: white;
 }
